@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(15, 0, 0);
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 2;
+    outline: none;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 16em 8em;
+}
+
+p {
+    font-size: 1.3rem;
+    width: 55%;
+    color: #bebebe;
+}
+
+button {
+    font-size: 1.3rem;
+    padding: .5em 1em;
+    margin-top: 3em;
+    background-color: rgb(89, 34, 169);
+    border: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
